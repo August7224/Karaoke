@@ -19,7 +19,7 @@ namespace Karaoke
         public Form1()
         {
             InitializeComponent();
-            lyricTimer.Tick += LyricTimer_Tick;
+            lyricTimer.Tick += LyricTimer_Tick!;
         }
 
         private void btnplay_Click(object sender, EventArgs e)
